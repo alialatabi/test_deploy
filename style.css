@@ -4,17 +4,20 @@ table {
   border-left: 0;
   border-radius: 4px;
   border-spacing: 0px;
+
 }
 thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
   border-collapse: separate;
+  filter: drop-shadow(10px 10px 15px rgb(25, 0, 255)) invert(75%);
 }
 tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
+  filter: drop-shadow(10px 10px 15px rgb(25, 0, 255)) invert(75%);
 }
 th,
 td {
@@ -22,6 +25,7 @@ td {
   text-align: left;
   vertical-align: top;
   border-left: 1px solid rgb(94, 93, 93);
+  filter: drop-shadow(10px 10px 15px rgb(25, 0, 255)) invert(75%);
 }
 td {
   border-top: 1px solid rgb(94, 93, 93);
